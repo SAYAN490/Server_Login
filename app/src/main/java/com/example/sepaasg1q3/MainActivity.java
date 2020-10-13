@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    /*
     public void login(View view)//Popup for login button
     {
         Toast.makeText(getApplicationContext(),"App Under Maintenance",Toast.LENGTH_SHORT).show();
@@ -96,7 +97,8 @@ public class MainActivity extends AppCompatActivity {
     public void reg(View view)//Popup for reg button
     {
         Toast.makeText(getApplicationContext(),"Registration will open soon...",Toast.LENGTH_SHORT).show();
-    }
+    }*/
+    
     //password validator
     private boolean validate(String name,String password)
     {
