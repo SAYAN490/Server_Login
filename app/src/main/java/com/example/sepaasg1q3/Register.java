@@ -31,7 +31,7 @@ public class Register extends AppCompatActivity {
         rRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Registration will be open soon",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"App under maintenance",Toast.LENGTH_SHORT).show();
             }
         });
 
