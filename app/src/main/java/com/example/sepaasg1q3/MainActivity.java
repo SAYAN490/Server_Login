@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 String inputPassword=ePassword.getText().toString();
                 if(inputName.isEmpty() || inputPassword.isEmpty())
                 {
-                    Toast.makeText(getApplicationContext(),"Please enter details correctly",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Please enter details correctly",Toast.LENGTH_SHORT).show();
                 }
                 else
                     {
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                         else
                         {
                             Toast.makeText(getApplicationContext(),"Logged in",Toast.LENGTH_LONG).show();
-                            //code for next page .......
+                            //code for next page starts here .......
                             Intent intent=new Intent(MainActivity.this,HomePageActivity.class);
                             startActivity(intent);
                         }
@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //code for register button
                 Toast.makeText(getApplicationContext(),"Registration Page",Toast.LENGTH_LONG).show();
+                //Linking done here...
                 Intent intent=new Intent(MainActivity.this,Register.class);
                 startActivity(intent);
             }
